@@ -1,0 +1,43 @@
+import turtle
+# turtle.fd(200)
+# turtle.seth(120)
+# turtle.fd(200)
+# turtle.seth(-120)
+# turtle.fd(200)
+# turtle.seth(0)
+# turtle.fd(100)
+# turtle.seth(60)
+# turtle.fd(100)
+# turtle.seth(180)
+# turtle.fd(100)
+# turtle.seth(-60)
+# turtle.fd(100)
+# turtle.seth(120)
+# turtle.done()
+
+
+# turtle.fd(100)
+# turtle.seth(120)
+# turtle.fd(100)
+# turtle.seth(-120)
+# turtle.fd(200)
+# turtle.seth(0)
+# turtle.fd(200)
+# turtle.seth(120)
+# turtle.fd(100)
+# turtle.seth(-120)
+# turtle.fd(100)
+# turtle.seth(120)
+# turtle.fd(100)
+# turtle.done()
+
+import turtle as t
+for i in range(3):
+    t.fd(100)
+    t.right(120)
+t.left(60)
+t.fd(100)
+for i in range(3):
+    t.right(120)
+    t.fd(200)
+turtle.done()
